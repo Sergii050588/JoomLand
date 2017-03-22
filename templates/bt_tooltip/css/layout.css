@@ -1,0 +1,600 @@
+/*---------------------------------------------------------
+# BT Tooltip - Joomla! Template
+# ---------------------------------------------------------
+# For Joomla! 3.0
+# Copyright (C) 2007-2013 BonusThemes.com. All rights reserved.
+# License: GNU/GPLv3, http://www.gnu.org/licenses/gpl-3.0.html
+# Demo: http://www.bonusthemes.com/demo/?template=tooltip
+# Website: http://www.bonusthemes.com
+# Support: support@bonusthemes.com
+----------------------------------------------------------- */
+/* All Module Positions
+------------------------------------------------------------- */
+.bt_top1 { }
+.bt_sub_top1 { }
+
+.bt_top2 { }
+.bt_sub_top2 { }
+
+.bt_top3 { }
+.bt_sub_top3 { }
+
+.bt_top4 { }
+.bt_sub_top4 { }
+
+.bt_logo { }
+.bt_sub_logo { }
+
+.bt_header1 { }
+.bt_sub_header1 { }
+
+.bt_header2 { }
+.bt_sub_header2 { }
+
+.bt_toolbar { }
+.bt_sub_toolbar { }
+
+.bt_menu { }
+.bt_sub_menu { }
+
+.bt_slideshow { 
+     margin: 30px 15px 15px 15px;
+     padding: 0px 0px 0px 0px;
+}
+.bt_sub_slideshow { }
+
+.bt_header3 { }
+.bt_sub_header3 { 
+     margin-right: 5px;
+}
+
+.bt_header4 { }
+.bt_sub_header4 { 
+     margin-right: 5px;
+}
+
+.bt_header5 { }
+.bt_sub_header5 { }
+
+.bt_left { }
+.bt_sub_left { }
+
+.bt_newsflash { }
+.bt_sub_newsflash { }
+
+.bt_news1 { }
+.bt_sub_news1 { }
+
+.bt_news2 { }
+.bt_sub_news2 { }
+
+.bt_news3 { }
+.bt_sub_news3 { }
+
+.bt_pathway { }
+.bt_sub_pathway { }
+
+.bt_notice1 { }
+.bt_sub_notice1 { }
+
+.bt_notice2 { }
+.bt_sub_notice2 { }
+
+.bt_notice3 { }
+.bt_sub_notice3 { }
+
+.bt_banner { }
+.bt_sub_banner { }
+
+.bt_right { }
+.bt_sub_right { }
+
+.bt_bottom1 { }
+.bt_sub_bottom1 { }
+
+.bt_bottom2 { }
+.bt_sub_bottom2 { }
+
+.bt_bottom3 { }
+.bt_sub_bottom3 { }
+
+.bt_bottom4 { }
+.bt_sub_bottom4 { }
+
+.bt_bottom5 { }
+.bt_sub_bottom5 { }
+
+.bt_bottom6 { }
+.bt_sub_bottom6 { }
+
+.bt_footer1 { }
+.bt_sub_footer1 { }
+
+.bt_footer2 { }
+.bt_sub_footer2 { }
+
+.bt_footer3 { }
+.bt_sub_footer3 { }
+
+.bt_footer4 { }
+.bt_sub_footer4 { }
+
+.bt_footer5 { }
+.bt_sub_footer5 { }
+
+.bt_footer6 { }
+.bt_sub_footer6 { }
+
+.bt_footer7 { }
+.bt_sub_footer7 { }
+
+.bt_mainbody { }
+.bt_sub_mainbody { }
+
+/* ---------- Top Divs ---------- */
+#bt_top1_top2_top3_top4_div { 
+     overflow: hidden;
+}
+#bt_logo_header1_header2_div { 
+     border-bottom-width: 1px;
+     border-bottom-style: solid;
+     overflow: hidden;
+}
+#bt_toolbar_menu_div { 
+     margin-bottom: 5px;
+     overflow: hidden;
+}
+#bt_slideshow_div { 
+     margin-bottom: 5px;
+     overflow: hidden;
+}
+#bt_header3_header4_header5_div { 
+     margin-bottom: 0px;
+     overflow: hidden;
+}
+#bt_bottom1_bottom2_bottom3_div { 
+     margin-bottom: 5px;
+     overflow: hidden;
+}
+#bt_bottom4_bottom5_bottom6_div { 
+     overflow: hidden;
+}
+#bt_footer1_footer2_footer3_div { 
+     overflow: hidden;
+}
+#bt_footer4_footer5_footer6_div { 
+     border-top-width: 1px;
+     border-top-style: solid;
+     overflow: hidden;
+}
+#bt_footer7_div { 
+     margin-top: 22px;
+     overflow: hidden;
+}
+#bt_newsflash_div { 
+     overflow: hidden;
+}
+#bt_news1_news2_news3_div { 
+     overflow: hidden;
+}
+#bt_pathway_div { 
+     overflow: hidden;
+}
+#bt_mainbody_div { 
+     overflow: hidden;
+}
+#bt_notice1_notice2_notice3_div { 
+     overflow: hidden;
+}
+#bt_banner_div { 
+     overflow: hidden;
+}
+#bt_left_div { 
+     margin-right: 5px;
+     float: left;
+}
+#bt_right_div { 
+     margin-left: 5px;
+     float: right;
+}
+
+/* ---------- Custom Classes and Ids from index.php ---------- */
+#bt_left_up_div { }
+#bt_left_down_div { }
+#bt_right_up_div { }
+#bt_right_down_div { }
+.bt_main { 
+     overflow: hidden;
+}
+.change_skin_icon { 
+     text-indent: -999em;
+     background-repeat: no-repeat;
+     margin-right: 8px;
+     width: 14px;
+     height: 14px;
+     float: left;
+}
+#bt_outer { }
+#bt_inner { 
+     border-right-width: 1px;
+     border-right-style: solid;
+     border-left-width: 1px;
+     border-left-style: solid;
+     overflow: hidden;
+     margin: 0px auto 0px auto;
+     padding: 35px 29px 0px 29px;
+}
+#bt_body { 
+     float: left;
+}
+#bt_footer_area { 
+     border-top-width: 1px;
+     border-top-style: solid;
+     margin-top: 22px;
+     overflow: hidden;
+     padding: 15px 0px 10px 10px;
+}
+#bt_btlogo_div { 
+     margin-top: 10px;
+     width: 50px;
+     float: left;
+}
+#bt_copyright_message { 
+     text-align: center;
+     float: left;
+     margin: 0px 0px 0px 120px;
+}
+#bt_skin_switcher { 
+     margin-top: 10px;
+     float: right;
+}
+#change-skin-cerise { }
+#change-skin-coral { }
+#change-skin-emerald { }
+
+/* ---------- #bt_left_div ---------- */
+#bt_left_div h1, #bt_left_div h2, #bt_left_div h3, #bt_left_div h4, #bt_left_div h5, #bt_left_div h6 { }
+#bt_left_div ul li { }
+#bt_left_div a:link, #bt_left_div a:active, #bt_left_div a:visited { }
+#bt_left_div a:hover, #bt_left_div a:focus { }
+#bt_left_div input[type="text"], #bt_left_div input[type="password"], #bt_left_div input[type="email"] { }
+#bt_left_div input[type="text"]:hover, #bt_left_div input[type="password"]:hover, #bt_left_div input[type="email"]:hover { }
+#bt_left_div textarea { }
+#bt_left_div textarea:hover, #bt_left_div textarea:focus { }
+#bt_left_div button, #bt_left_div input.button, #bt_left_div .button, #bt_left_div input[type="submit"], #bt_left_div input[type="button"], #bt_left_div input[type="reset"] { }
+
+#bt_left_div button:hover, #bt_left_div input.button:hover, #bt_left_div .button:hover, #bt_left_div input[type="submit"]:hover, #bt_left_div input[type="button"]:hover, #bt_left_div input[type="reset"]:hover { }
+
+#bt_left_div button:active, #bt_left_div input.button:active, #bt_left_div .button:active, #bt_left_div input[type="submit"]:active, #bt_left_div input[type="button"]:active, #bt_left_div input[type="reset"]:active { }
+
+#bt_left_div .moduletable h3 span.title_arrow { }
+#bt_left_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_right_div ---------- */
+#bt_right_div h1, #bt_right_div h2, #bt_right_div h3, #bt_right_div h4, #bt_right_div h5, #bt_right_div h6 { }
+#bt_right_div ul li { }
+#bt_right_div a:link, #bt_right_div a:active, #bt_right_div a:visited { }
+#bt_right_div a:hover, #bt_right_div a:focus { }
+#bt_right_div input[type="text"], #bt_right_div input[type="password"], #bt_right_div input[type="email"] { }
+#bt_right_div input[type="text"]:hover, #bt_right_div input[type="password"]:hover, #bt_right_div input[type="email"]:hover { }
+#bt_right_div textarea { }
+#bt_right_div textarea:hover, #bt_right_div textarea:focus { }
+#bt_right_div button, #bt_right_div input.button, #bt_right_div .button, #bt_right_div input[type="submit"], #bt_right_div input[type="button"], #bt_right_div input[type="reset"] { }
+
+#bt_right_div button:hover, #bt_right_div input.button:hover, #bt_right_div .button:hover, #bt_right_div input[type="submit"]:hover, #bt_right_div input[type="button"]:hover, #bt_right_div input[type="reset"]:hover { }
+
+#bt_right_div button:active, #bt_right_div input.button:active, #bt_right_div .button:active, #bt_right_div input[type="submit"]:active, #bt_right_div input[type="button"]:active, #bt_right_div input[type="reset"]:active { }
+
+#bt_right_div .moduletable h3 span.title_arrow { }
+#bt_right_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_top1_top2_top3_top4_div ---------- */
+#bt_top1_top2_top3_top4_div h1, #bt_top1_top2_top3_top4_div h2, #bt_top1_top2_top3_top4_div h3, #bt_top1_top2_top3_top4_div h4, #bt_top1_top2_top3_top4_div h5, #bt_top1_top2_top3_top4_div h6 { }
+#bt_top1_top2_top3_top4_div ul li { }
+#bt_top1_top2_top3_top4_div a:link, #bt_top1_top2_top3_top4_div a:active, #bt_top1_top2_top3_top4_div a:visited { }
+#bt_top1_top2_top3_top4_div a:hover, #bt_top1_top2_top3_top4_div a:focus { }
+#bt_top1_top2_top3_top4_div input[type="text"], #bt_top1_top2_top3_top4_div input[type="password"], #bt_top1_top2_top3_top4_div input[type="email"] { }
+#bt_top1_top2_top3_top4_div input[type="text"]:hover, #bt_top1_top2_top3_top4_div input[type="password"]:hover, #bt_top1_top2_top3_top4_div input[type="email"]:hover { }
+#bt_top1_top2_top3_top4_div textarea { }
+#bt_top1_top2_top3_top4_div textarea:hover, #bt_top1_top2_top3_top4_div textarea:focus { }
+#bt_top1_top2_top3_top4_div button, #bt_top1_top2_top3_top4_div input.button, #bt_top1_top2_top3_top4_div .button, #bt_top1_top2_top3_top4_div input[type="submit"], #bt_top1_top2_top3_top4_div input[type="button"], #bt_top1_top2_top3_top4_div input[type="reset"] { }
+
+#bt_top1_top2_top3_top4_div button:hover, #bt_top1_top2_top3_top4_div input.button:hover, #bt_top1_top2_top3_top4_div .button:hover, #bt_top1_top2_top3_top4_div input[type="submit"]:hover, #bt_top1_top2_top3_top4_div input[type="button"]:hover, #bt_top1_top2_top3_top4_div input[type="reset"]:hover { }
+
+#bt_top1_top2_top3_top4_div button:active, #bt_top1_top2_top3_top4_div input.button:active, #bt_top1_top2_top3_top4_div .button:active, #bt_top1_top2_top3_top4_div input[type="submit"]:active, #bt_top1_top2_top3_top4_div input[type="button"]:active, #bt_top1_top2_top3_top4_div input[type="reset"]:active { }
+
+#bt_top1_top2_top3_top4_div .moduletable h3 span.title_arrow { }
+#bt_top1_top2_top3_top4_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_logo_header1_header2_div ---------- */
+#bt_logo_header1_header2_div h1, #bt_logo_header1_header2_div h2, #bt_logo_header1_header2_div h3, #bt_logo_header1_header2_div h4, #bt_logo_header1_header2_div h5, #bt_logo_header1_header2_div h6 { }
+#bt_logo_header1_header2_div ul li { }
+#bt_logo_header1_header2_div a:link, #bt_logo_header1_header2_div a:active, #bt_logo_header1_header2_div a:visited { }
+#bt_logo_header1_header2_div a:hover, #bt_logo_header1_header2_div a:focus { }
+#bt_logo_header1_header2_div input[type="text"], #bt_logo_header1_header2_div input[type="password"], #bt_logo_header1_header2_div input[type="email"] { }
+#bt_logo_header1_header2_div input[type="text"]:hover, #bt_logo_header1_header2_div input[type="password"]:hover, #bt_logo_header1_header2_div input[type="email"]:hover { }
+#bt_logo_header1_header2_div textarea { }
+#bt_logo_header1_header2_div textarea:hover, #bt_logo_header1_header2_div textarea:focus { }
+#bt_logo_header1_header2_div button, #bt_logo_header1_header2_div input.button, #bt_logo_header1_header2_div .button, #bt_logo_header1_header2_div input[type="submit"], #bt_logo_header1_header2_div input[type="button"], #bt_logo_header1_header2_div input[type="reset"] { }
+
+#bt_logo_header1_header2_div button:hover, #bt_logo_header1_header2_div input.button:hover, #bt_logo_header1_header2_div .button:hover, #bt_logo_header1_header2_div input[type="submit"]:hover, #bt_logo_header1_header2_div input[type="button"]:hover, #bt_logo_header1_header2_div input[type="reset"]:hover { }
+
+#bt_logo_header1_header2_div button:active, #bt_logo_header1_header2_div input.button:active, #bt_logo_header1_header2_div .button:active, #bt_logo_header1_header2_div input[type="submit"]:active, #bt_logo_header1_header2_div input[type="button"]:active, #bt_logo_header1_header2_div input[type="reset"]:active { }
+
+#bt_logo_header1_header2_div .moduletable h3 span.title_arrow { }
+#bt_logo_header1_header2_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_toolbar_menu_div ---------- */
+#bt_toolbar_menu_div h1, #bt_toolbar_menu_div h2, #bt_toolbar_menu_div h3, #bt_toolbar_menu_div h4, #bt_toolbar_menu_div h5, #bt_toolbar_menu_div h6 { }
+#bt_toolbar_menu_div ul li { }
+#bt_toolbar_menu_div a:link, #bt_toolbar_menu_div a:active, #bt_toolbar_menu_div a:visited { }
+#bt_toolbar_menu_div a:hover, #bt_toolbar_menu_div a:focus { }
+#bt_toolbar_menu_div input[type="text"], #bt_toolbar_menu_div input[type="password"], #bt_toolbar_menu_div input[type="email"] { }
+#bt_toolbar_menu_div input[type="text"]:hover, #bt_toolbar_menu_div input[type="password"]:hover, #bt_toolbar_menu_div input[type="email"]:hover { }
+#bt_toolbar_menu_div textarea { }
+#bt_toolbar_menu_div textarea:hover, #bt_toolbar_menu_div textarea:focus { }
+#bt_toolbar_menu_div button, #bt_toolbar_menu_div input.button, #bt_toolbar_menu_div .button, #bt_toolbar_menu_div input[type="submit"], #bt_toolbar_menu_div input[type="button"], #bt_toolbar_menu_div input[type="reset"] { }
+
+#bt_toolbar_menu_div button:hover, #bt_toolbar_menu_div input.button:hover, #bt_toolbar_menu_div .button:hover, #bt_toolbar_menu_div input[type="submit"]:hover, #bt_toolbar_menu_div input[type="button"]:hover, #bt_toolbar_menu_div input[type="reset"]:hover { }
+
+#bt_toolbar_menu_div button:active, #bt_toolbar_menu_div input.button:active, #bt_toolbar_menu_div .button:active, #bt_toolbar_menu_div input[type="submit"]:active, #bt_toolbar_menu_div input[type="button"]:active, #bt_toolbar_menu_div input[type="reset"]:active { }
+
+#bt_toolbar_menu_div .moduletable h3 span.title_arrow { }
+#bt_toolbar_menu_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_slideshow_div ---------- */
+#bt_slideshow_div h1, #bt_slideshow_div h2, #bt_slideshow_div h3, #bt_slideshow_div h4, #bt_slideshow_div h5, #bt_slideshow_div h6 { }
+#bt_slideshow_div ul li { }
+#bt_slideshow_div a:link, #bt_slideshow_div a:active, #bt_slideshow_div a:visited { }
+#bt_slideshow_div a:hover, #bt_slideshow_div a:focus { }
+#bt_slideshow_div input[type="text"], #bt_slideshow_div input[type="password"], #bt_slideshow_div input[type="email"] { }
+#bt_slideshow_div input[type="text"]:hover, #bt_slideshow_div input[type="password"]:hover, #bt_slideshow_div input[type="email"]:hover { }
+#bt_slideshow_div textarea { }
+#bt_slideshow_div textarea:hover, #bt_slideshow_div textarea:focus { }
+#bt_slideshow_div button, #bt_slideshow_div input.button, #bt_slideshow_div .button, #bt_slideshow_div input[type="submit"], #bt_slideshow_div input[type="button"], #bt_slideshow_div input[type="reset"] { }
+
+#bt_slideshow_div button:hover, #bt_slideshow_div input.button:hover, #bt_slideshow_div .button:hover, #bt_slideshow_div input[type="submit"]:hover, #bt_slideshow_div input[type="button"]:hover, #bt_slideshow_div input[type="reset"]:hover { }
+
+#bt_slideshow_div button:active, #bt_slideshow_div input.button:active, #bt_slideshow_div .button:active, #bt_slideshow_div input[type="submit"]:active, #bt_slideshow_div input[type="button"]:active, #bt_slideshow_div input[type="reset"]:active { }
+
+#bt_slideshow_div .moduletable h3 span.title_arrow { }
+#bt_slideshow_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_header3_header4_header5_div ---------- */
+#bt_header3_header4_header5_div h1, #bt_header3_header4_header5_div h2, #bt_header3_header4_header5_div h3, #bt_header3_header4_header5_div h4, #bt_header3_header4_header5_div h5, #bt_header3_header4_header5_div h6 { }
+#bt_header3_header4_header5_div ul li { }
+#bt_header3_header4_header5_div a:link, #bt_header3_header4_header5_div a:active, #bt_header3_header4_header5_div a:visited { }
+#bt_header3_header4_header5_div a:hover, #bt_header3_header4_header5_div a:focus { }
+#bt_header3_header4_header5_div input[type="text"], #bt_header3_header4_header5_div input[type="password"], #bt_header3_header4_header5_div input[type="email"] { }
+#bt_header3_header4_header5_div input[type="text"]:hover, #bt_header3_header4_header5_div input[type="password"]:hover, #bt_header3_header4_header5_div input[type="email"]:hover { }
+#bt_header3_header4_header5_div textarea { }
+#bt_header3_header4_header5_div textarea:hover, #bt_header3_header4_header5_div textarea:focus { }
+#bt_header3_header4_header5_div button, #bt_header3_header4_header5_div input.button, #bt_header3_header4_header5_div .button, #bt_header3_header4_header5_div input[type="submit"], #bt_header3_header4_header5_div input[type="button"], #bt_header3_header4_header5_div input[type="reset"] { }
+
+#bt_header3_header4_header5_div button:hover, #bt_header3_header4_header5_div input.button:hover, #bt_header3_header4_header5_div .button:hover, #bt_header3_header4_header5_div input[type="submit"]:hover, #bt_header3_header4_header5_div input[type="button"]:hover, #bt_header3_header4_header5_div input[type="reset"]:hover { }
+
+#bt_header3_header4_header5_div button:active, #bt_header3_header4_header5_div input.button:active, #bt_header3_header4_header5_div .button:active, #bt_header3_header4_header5_div input[type="submit"]:active, #bt_header3_header4_header5_div input[type="button"]:active, #bt_header3_header4_header5_div input[type="reset"]:active { }
+
+#bt_header3_header4_header5_div .moduletable h3 span.title_arrow { }
+#bt_header3_header4_header5_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_left_main_right_div ---------- */
+#bt_left_main_right_div h1, #bt_left_main_right_div h2, #bt_left_main_right_div h3, #bt_left_main_right_div h4, #bt_left_main_right_div h5, #bt_left_main_right_div h6 { }
+#bt_left_main_right_div ul li { }
+#bt_left_main_right_div a:link, #bt_left_main_right_div a:active, #bt_left_main_right_div a:visited { }
+#bt_left_main_right_div a:hover, #bt_left_main_right_div a:focus { }
+#bt_left_main_right_div input[type="text"], #bt_left_main_right_div input[type="password"], #bt_left_main_right_div input[type="email"] { }
+#bt_left_main_right_div input[type="text"]:hover, #bt_left_main_right_div input[type="password"]:hover, #bt_left_main_right_div input[type="email"]:hover { }
+#bt_left_main_right_div textarea { }
+#bt_left_main_right_div textarea:hover, #bt_left_main_right_div textarea:focus { }
+#bt_left_main_right_div button, #bt_left_main_right_div input.button, #bt_left_main_right_div .button, #bt_left_main_right_div input[type="submit"], #bt_left_main_right_div input[type="button"], #bt_left_main_right_div input[type="reset"] { }
+
+#bt_left_main_right_div button:hover, #bt_left_main_right_div input.button:hover, #bt_left_main_right_div .button:hover, #bt_left_main_right_div input[type="submit"]:hover, #bt_left_main_right_div input[type="button"]:hover, #bt_left_main_right_div input[type="reset"]:hover { }
+
+#bt_left_main_right_div button:active, #bt_left_main_right_div input.button:active, #bt_left_main_right_div .button:active, #bt_left_main_right_div input[type="submit"]:active, #bt_left_main_right_div input[type="button"]:active, #bt_left_main_right_div input[type="reset"]:active { }
+
+#bt_left_main_right_div .moduletable h3 span.title_arrow { }
+#bt_left_main_right_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_bottom1_bottom2_bottom3_div ---------- */
+#bt_bottom1_bottom2_bottom3_div h1, #bt_bottom1_bottom2_bottom3_div h2, #bt_bottom1_bottom2_bottom3_div h3, #bt_bottom1_bottom2_bottom3_div h4, #bt_bottom1_bottom2_bottom3_div h5, #bt_bottom1_bottom2_bottom3_div h6 { }
+#bt_bottom1_bottom2_bottom3_div ul li { }
+#bt_bottom1_bottom2_bottom3_div a:link, #bt_bottom1_bottom2_bottom3_div a:active, #bt_bottom1_bottom2_bottom3_div a:visited { }
+#bt_bottom1_bottom2_bottom3_div a:hover, #bt_bottom1_bottom2_bottom3_div a:focus { }
+#bt_bottom1_bottom2_bottom3_div input[type="text"], #bt_bottom1_bottom2_bottom3_div input[type="password"], #bt_bottom1_bottom2_bottom3_div input[type="email"] { }
+#bt_bottom1_bottom2_bottom3_div input[type="text"]:hover, #bt_bottom1_bottom2_bottom3_div input[type="password"]:hover, #bt_bottom1_bottom2_bottom3_div input[type="email"]:hover { }
+#bt_bottom1_bottom2_bottom3_div textarea { }
+#bt_bottom1_bottom2_bottom3_div textarea:hover, #bt_bottom1_bottom2_bottom3_div textarea:focus { }
+#bt_bottom1_bottom2_bottom3_div button, #bt_bottom1_bottom2_bottom3_div input.button, #bt_bottom1_bottom2_bottom3_div .button, #bt_bottom1_bottom2_bottom3_div input[type="submit"], #bt_bottom1_bottom2_bottom3_div input[type="button"], #bt_bottom1_bottom2_bottom3_div input[type="reset"] { }
+
+#bt_bottom1_bottom2_bottom3_div button:hover, #bt_bottom1_bottom2_bottom3_div input.button:hover, #bt_bottom1_bottom2_bottom3_div .button:hover, #bt_bottom1_bottom2_bottom3_div input[type="submit"]:hover, #bt_bottom1_bottom2_bottom3_div input[type="button"]:hover, #bt_bottom1_bottom2_bottom3_div input[type="reset"]:hover { }
+
+#bt_bottom1_bottom2_bottom3_div button:active, #bt_bottom1_bottom2_bottom3_div input.button:active, #bt_bottom1_bottom2_bottom3_div .button:active, #bt_bottom1_bottom2_bottom3_div input[type="submit"]:active, #bt_bottom1_bottom2_bottom3_div input[type="button"]:active, #bt_bottom1_bottom2_bottom3_div input[type="reset"]:active { }
+
+#bt_bottom1_bottom2_bottom3_div .moduletable h3 span.title_arrow { }
+#bt_bottom1_bottom2_bottom3_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_bottom4_bottom5_bottom6_div ---------- */
+#bt_bottom4_bottom5_bottom6_div h1, #bt_bottom4_bottom5_bottom6_div h2, #bt_bottom4_bottom5_bottom6_div h3, #bt_bottom4_bottom5_bottom6_div h4, #bt_bottom4_bottom5_bottom6_div h5, #bt_bottom4_bottom5_bottom6_div h6 { }
+#bt_bottom4_bottom5_bottom6_div ul li { }
+#bt_bottom4_bottom5_bottom6_div a:link, #bt_bottom4_bottom5_bottom6_div a:active, #bt_bottom4_bottom5_bottom6_div a:visited { }
+#bt_bottom4_bottom5_bottom6_div a:hover, #bt_bottom4_bottom5_bottom6_div a:focus { }
+#bt_bottom4_bottom5_bottom6_div input[type="text"], #bt_bottom4_bottom5_bottom6_div input[type="password"], #bt_bottom4_bottom5_bottom6_div input[type="email"] { }
+#bt_bottom4_bottom5_bottom6_div input[type="text"]:hover, #bt_bottom4_bottom5_bottom6_div input[type="password"]:hover, #bt_bottom4_bottom5_bottom6_div input[type="email"]:hover { }
+#bt_bottom4_bottom5_bottom6_div textarea { }
+#bt_bottom4_bottom5_bottom6_div textarea:hover, #bt_bottom4_bottom5_bottom6_div textarea:focus { }
+#bt_bottom4_bottom5_bottom6_div button, #bt_bottom4_bottom5_bottom6_div input.button, #bt_bottom4_bottom5_bottom6_div .button, #bt_bottom4_bottom5_bottom6_div input[type="submit"], #bt_bottom4_bottom5_bottom6_div input[type="button"], #bt_bottom4_bottom5_bottom6_div input[type="reset"] { }
+
+#bt_bottom4_bottom5_bottom6_div button:hover, #bt_bottom4_bottom5_bottom6_div input.button:hover, #bt_bottom4_bottom5_bottom6_div .button:hover, #bt_bottom4_bottom5_bottom6_div input[type="submit"]:hover, #bt_bottom4_bottom5_bottom6_div input[type="button"]:hover, #bt_bottom4_bottom5_bottom6_div input[type="reset"]:hover { }
+
+#bt_bottom4_bottom5_bottom6_div button:active, #bt_bottom4_bottom5_bottom6_div input.button:active, #bt_bottom4_bottom5_bottom6_div .button:active, #bt_bottom4_bottom5_bottom6_div input[type="submit"]:active, #bt_bottom4_bottom5_bottom6_div input[type="button"]:active, #bt_bottom4_bottom5_bottom6_div input[type="reset"]:active { }
+
+#bt_bottom4_bottom5_bottom6_div .moduletable h3 span.title_arrow { }
+#bt_bottom4_bottom5_bottom6_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_footer1_footer2_footer3_div ---------- */
+#bt_footer1_footer2_footer3_div h1, #bt_footer1_footer2_footer3_div h2, #bt_footer1_footer2_footer3_div h3, #bt_footer1_footer2_footer3_div h4, #bt_footer1_footer2_footer3_div h5, #bt_footer1_footer2_footer3_div h6 { }
+#bt_footer1_footer2_footer3_div ul li { }
+#bt_footer1_footer2_footer3_div a:link, #bt_footer1_footer2_footer3_div a:active, #bt_footer1_footer2_footer3_div a:visited { }
+#bt_footer1_footer2_footer3_div a:hover, #bt_footer1_footer2_footer3_div a:focus { }
+#bt_footer1_footer2_footer3_div input[type="text"], #bt_footer1_footer2_footer3_div input[type="password"], #bt_footer1_footer2_footer3_div input[type="email"] { }
+#bt_footer1_footer2_footer3_div input[type="text"]:hover, #bt_footer1_footer2_footer3_div input[type="password"]:hover, #bt_footer1_footer2_footer3_div input[type="email"]:hover { }
+#bt_footer1_footer2_footer3_div textarea { }
+#bt_footer1_footer2_footer3_div textarea:hover, #bt_footer1_footer2_footer3_div textarea:focus { }
+#bt_footer1_footer2_footer3_div button, #bt_footer1_footer2_footer3_div input.button, #bt_footer1_footer2_footer3_div .button, #bt_footer1_footer2_footer3_div input[type="submit"], #bt_footer1_footer2_footer3_div input[type="button"], #bt_footer1_footer2_footer3_div input[type="reset"] { }
+
+#bt_footer1_footer2_footer3_div button:hover, #bt_footer1_footer2_footer3_div input.button:hover, #bt_footer1_footer2_footer3_div .button:hover, #bt_footer1_footer2_footer3_div input[type="submit"]:hover, #bt_footer1_footer2_footer3_div input[type="button"]:hover, #bt_footer1_footer2_footer3_div input[type="reset"]:hover { }
+
+#bt_footer1_footer2_footer3_div button:active, #bt_footer1_footer2_footer3_div input.button:active, #bt_footer1_footer2_footer3_div .button:active, #bt_footer1_footer2_footer3_div input[type="submit"]:active, #bt_footer1_footer2_footer3_div input[type="button"]:active, #bt_footer1_footer2_footer3_div input[type="reset"]:active { }
+
+#bt_footer1_footer2_footer3_div .moduletable h3 span.title_arrow { }
+#bt_footer1_footer2_footer3_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_footer4_footer5_footer6_div ---------- */
+#bt_footer4_footer5_footer6_div h1, #bt_footer4_footer5_footer6_div h2, #bt_footer4_footer5_footer6_div h3, #bt_footer4_footer5_footer6_div h4, #bt_footer4_footer5_footer6_div h5, #bt_footer4_footer5_footer6_div h6 { }
+#bt_footer4_footer5_footer6_div ul li { }
+#bt_footer4_footer5_footer6_div a:link, #bt_footer4_footer5_footer6_div a:active, #bt_footer4_footer5_footer6_div a:visited { }
+#bt_footer4_footer5_footer6_div a:hover, #bt_footer4_footer5_footer6_div a:focus { }
+#bt_footer4_footer5_footer6_div input[type="text"], #bt_footer4_footer5_footer6_div input[type="password"], #bt_footer4_footer5_footer6_div input[type="email"] { }
+#bt_footer4_footer5_footer6_div input[type="text"]:hover, #bt_footer4_footer5_footer6_div input[type="password"]:hover, #bt_footer4_footer5_footer6_div input[type="email"]:hover { }
+#bt_footer4_footer5_footer6_div textarea { }
+#bt_footer4_footer5_footer6_div textarea:hover, #bt_footer4_footer5_footer6_div textarea:focus { }
+#bt_footer4_footer5_footer6_div button, #bt_footer4_footer5_footer6_div input.button, #bt_footer4_footer5_footer6_div .button, #bt_footer4_footer5_footer6_div input[type="submit"], #bt_footer4_footer5_footer6_div input[type="button"], #bt_footer4_footer5_footer6_div input[type="reset"] { }
+
+#bt_footer4_footer5_footer6_div button:hover, #bt_footer4_footer5_footer6_div input.button:hover, #bt_footer4_footer5_footer6_div .button:hover, #bt_footer4_footer5_footer6_div input[type="submit"]:hover, #bt_footer4_footer5_footer6_div input[type="button"]:hover, #bt_footer4_footer5_footer6_div input[type="reset"]:hover { }
+
+#bt_footer4_footer5_footer6_div button:active, #bt_footer4_footer5_footer6_div input.button:active, #bt_footer4_footer5_footer6_div .button:active, #bt_footer4_footer5_footer6_div input[type="submit"]:active, #bt_footer4_footer5_footer6_div input[type="button"]:active, #bt_footer4_footer5_footer6_div input[type="reset"]:active { }
+
+#bt_footer4_footer5_footer6_div .moduletable h3 span.title_arrow { }
+#bt_footer4_footer5_footer6_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_footer7_div ---------- */
+#bt_footer7_div h1, #bt_footer7_div h2, #bt_footer7_div h3, #bt_footer7_div h4, #bt_footer7_div h5, #bt_footer7_div h6 { }
+#bt_footer7_div ul li { }
+#bt_footer7_div a:link, #bt_footer7_div a:active, #bt_footer7_div a:visited { }
+#bt_footer7_div a:hover, #bt_footer7_div a:focus { }
+#bt_footer7_div input[type="text"], #bt_footer7_div input[type="password"], #bt_footer7_div input[type="email"] { }
+#bt_footer7_div input[type="text"]:hover, #bt_footer7_div input[type="password"]:hover, #bt_footer7_div input[type="email"]:hover { }
+#bt_footer7_div textarea { }
+#bt_footer7_div textarea:hover, #bt_footer7_div textarea:focus { }
+#bt_footer7_div button, #bt_footer7_div input.button, #bt_footer7_div .button, #bt_footer7_div input[type="submit"], #bt_footer7_div input[type="button"], #bt_footer7_div input[type="reset"] { }
+
+#bt_footer7_div button:hover, #bt_footer7_div input.button:hover, #bt_footer7_div .button:hover, #bt_footer7_div input[type="submit"]:hover, #bt_footer7_div input[type="button"]:hover, #bt_footer7_div input[type="reset"]:hover { }
+
+#bt_footer7_div button:active, #bt_footer7_div input.button:active, #bt_footer7_div .button:active, #bt_footer7_div input[type="submit"]:active, #bt_footer7_div input[type="button"]:active, #bt_footer7_div input[type="reset"]:active { }
+
+#bt_footer7_div .moduletable h3 span.title_arrow { }
+#bt_footer7_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_newsflash_div ---------- */
+#bt_newsflash_div h1, #bt_newsflash_div h2, #bt_newsflash_div h3, #bt_newsflash_div h4, #bt_newsflash_div h5, #bt_newsflash_div h6 { }
+#bt_newsflash_div ul li { }
+#bt_newsflash_div a:link, #bt_newsflash_div a:active, #bt_newsflash_div a:visited { }
+#bt_newsflash_div a:hover, #bt_newsflash_div a:focus { }
+#bt_newsflash_div input[type="text"], #bt_newsflash_div input[type="password"], #bt_newsflash_div input[type="email"] { }
+#bt_newsflash_div input[type="text"]:hover, #bt_newsflash_div input[type="password"]:hover, #bt_newsflash_div input[type="email"]:hover { }
+#bt_newsflash_div textarea { }
+#bt_newsflash_div textarea:hover, #bt_newsflash_div textarea:focus { }
+#bt_newsflash_div button, #bt_newsflash_div input.button, #bt_newsflash_div .button, #bt_newsflash_div input[type="submit"], #bt_newsflash_div input[type="button"], #bt_newsflash_div input[type="reset"] { }
+
+#bt_newsflash_div button:hover, #bt_newsflash_div input.button:hover, #bt_newsflash_div .button:hover, #bt_newsflash_div input[type="submit"]:hover, #bt_newsflash_div input[type="button"]:hover, #bt_newsflash_div input[type="reset"]:hover { }
+
+#bt_newsflash_div button:active, #bt_newsflash_div input.button:active, #bt_newsflash_div .button:active, #bt_newsflash_div input[type="submit"]:active, #bt_newsflash_div input[type="button"]:active, #bt_newsflash_div input[type="reset"]:active { }
+
+#bt_newsflash_div .moduletable h3 span.title_arrow { }
+#bt_newsflash_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_news1_news2_news3_div ---------- */
+#bt_news1_news2_news3_div h1, #bt_news1_news2_news3_div h2, #bt_news1_news2_news3_div h3, #bt_news1_news2_news3_div h4, #bt_news1_news2_news3_div h5, #bt_news1_news2_news3_div h6 { }
+#bt_news1_news2_news3_div ul li { }
+#bt_news1_news2_news3_div a:link, #bt_news1_news2_news3_div a:active, #bt_news1_news2_news3_div a:visited { }
+#bt_news1_news2_news3_div a:hover, #bt_news1_news2_news3_div a:focus { }
+#bt_news1_news2_news3_div input[type="text"], #bt_news1_news2_news3_div input[type="password"], #bt_news1_news2_news3_div input[type="email"] { }
+#bt_news1_news2_news3_div input[type="text"]:hover, #bt_news1_news2_news3_div input[type="password"]:hover, #bt_news1_news2_news3_div input[type="email"]:hover { }
+#bt_news1_news2_news3_div textarea { }
+#bt_news1_news2_news3_div textarea:hover, #bt_news1_news2_news3_div textarea:focus { }
+#bt_news1_news2_news3_div button, #bt_news1_news2_news3_div input.button, #bt_news1_news2_news3_div .button, #bt_news1_news2_news3_div input[type="submit"], #bt_news1_news2_news3_div input[type="button"], #bt_news1_news2_news3_div input[type="reset"] { }
+
+#bt_news1_news2_news3_div button:hover, #bt_news1_news2_news3_div input.button:hover, #bt_news1_news2_news3_div .button:hover, #bt_news1_news2_news3_div input[type="submit"]:hover, #bt_news1_news2_news3_div input[type="button"]:hover, #bt_news1_news2_news3_div input[type="reset"]:hover { }
+
+#bt_news1_news2_news3_div button:active, #bt_news1_news2_news3_div input.button:active, #bt_news1_news2_news3_div .button:active, #bt_news1_news2_news3_div input[type="submit"]:active, #bt_news1_news2_news3_div input[type="button"]:active, #bt_news1_news2_news3_div input[type="reset"]:active { }
+
+#bt_news1_news2_news3_div .moduletable h3 span.title_arrow { }
+#bt_news1_news2_news3_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_pathway_div ---------- */
+#bt_pathway_div h1, #bt_pathway_div h2, #bt_pathway_div h3, #bt_pathway_div h4, #bt_pathway_div h5, #bt_pathway_div h6 { }
+#bt_pathway_div ul li { }
+#bt_pathway_div a:link, #bt_pathway_div a:active, #bt_pathway_div a:visited { }
+#bt_pathway_div a:hover, #bt_pathway_div a:focus { }
+#bt_pathway_div input[type="text"], #bt_pathway_div input[type="password"], #bt_pathway_div input[type="email"] { }
+#bt_pathway_div input[type="text"]:hover, #bt_pathway_div input[type="password"]:hover, #bt_pathway_div input[type="email"]:hover { }
+#bt_pathway_div textarea { }
+#bt_pathway_div textarea:hover, #bt_pathway_div textarea:focus { }
+#bt_pathway_div button, #bt_pathway_div input.button, #bt_pathway_div .button, #bt_pathway_div input[type="submit"], #bt_pathway_div input[type="button"], #bt_pathway_div input[type="reset"] { }
+
+#bt_pathway_div button:hover, #bt_pathway_div input.button:hover, #bt_pathway_div .button:hover, #bt_pathway_div input[type="submit"]:hover, #bt_pathway_div input[type="button"]:hover, #bt_pathway_div input[type="reset"]:hover { }
+
+#bt_pathway_div button:active, #bt_pathway_div input.button:active, #bt_pathway_div .button:active, #bt_pathway_div input[type="submit"]:active, #bt_pathway_div input[type="button"]:active, #bt_pathway_div input[type="reset"]:active { }
+
+#bt_pathway_div .moduletable h3 span.title_arrow { }
+#bt_pathway_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_mainbody_div ---------- */
+#bt_mainbody_div h1, #bt_mainbody_div h2, #bt_mainbody_div h3, #bt_mainbody_div h4, #bt_mainbody_div h5, #bt_mainbody_div h6 { }
+#bt_mainbody_div ul li { }
+#bt_mainbody_div a:link, #bt_mainbody_div a:active, #bt_mainbody_div a:visited { }
+#bt_mainbody_div a:hover, #bt_mainbody_div a:focus { }
+#bt_mainbody_div input[type="text"], #bt_mainbody_div input[type="password"], #bt_mainbody_div input[type="email"] { }
+#bt_mainbody_div input[type="text"]:hover, #bt_mainbody_div input[type="password"]:hover, #bt_mainbody_div input[type="email"]:hover { }
+#bt_mainbody_div textarea { }
+#bt_mainbody_div textarea:hover, #bt_mainbody_div textarea:focus { }
+#bt_mainbody_div button, #bt_mainbody_div input.button, #bt_mainbody_div .button, #bt_mainbody_div input[type="submit"], #bt_mainbody_div input[type="button"], #bt_mainbody_div input[type="reset"] { }
+
+#bt_mainbody_div button:hover, #bt_mainbody_div input.button:hover, #bt_mainbody_div .button:hover, #bt_mainbody_div input[type="submit"]:hover, #bt_mainbody_div input[type="button"]:hover, #bt_mainbody_div input[type="reset"]:hover { }
+
+#bt_mainbody_div button:active, #bt_mainbody_div input.button:active, #bt_mainbody_div .button:active, #bt_mainbody_div input[type="submit"]:active, #bt_mainbody_div input[type="button"]:active, #bt_mainbody_div input[type="reset"]:active { }
+
+#bt_mainbody_div .moduletable h3 span.title_arrow { }
+#bt_mainbody_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_notice1_notice2_notice3_div ---------- */
+#bt_notice1_notice2_notice3_div h1, #bt_notice1_notice2_notice3_div h2, #bt_notice1_notice2_notice3_div h3, #bt_notice1_notice2_notice3_div h4, #bt_notice1_notice2_notice3_div h5, #bt_notice1_notice2_notice3_div h6 { }
+#bt_notice1_notice2_notice3_div ul li { }
+#bt_notice1_notice2_notice3_div a:link, #bt_notice1_notice2_notice3_div a:active, #bt_notice1_notice2_notice3_div a:visited { }
+#bt_notice1_notice2_notice3_div a:hover, #bt_notice1_notice2_notice3_div a:focus { }
+#bt_notice1_notice2_notice3_div input[type="text"], #bt_notice1_notice2_notice3_div input[type="password"], #bt_notice1_notice2_notice3_div input[type="email"] { }
+#bt_notice1_notice2_notice3_div input[type="text"]:hover, #bt_notice1_notice2_notice3_div input[type="password"]:hover, #bt_notice1_notice2_notice3_div input[type="email"]:hover { }
+#bt_notice1_notice2_notice3_div textarea { }
+#bt_notice1_notice2_notice3_div textarea:hover, #bt_notice1_notice2_notice3_div textarea:focus { }
+#bt_notice1_notice2_notice3_div button, #bt_notice1_notice2_notice3_div input.button, #bt_notice1_notice2_notice3_div .button, #bt_notice1_notice2_notice3_div input[type="submit"], #bt_notice1_notice2_notice3_div input[type="button"], #bt_notice1_notice2_notice3_div input[type="reset"] { }
+
+#bt_notice1_notice2_notice3_div button:hover, #bt_notice1_notice2_notice3_div input.button:hover, #bt_notice1_notice2_notice3_div .button:hover, #bt_notice1_notice2_notice3_div input[type="submit"]:hover, #bt_notice1_notice2_notice3_div input[type="button"]:hover, #bt_notice1_notice2_notice3_div input[type="reset"]:hover { }
+
+#bt_notice1_notice2_notice3_div button:active, #bt_notice1_notice2_notice3_div input.button:active, #bt_notice1_notice2_notice3_div .button:active, #bt_notice1_notice2_notice3_div input[type="submit"]:active, #bt_notice1_notice2_notice3_div input[type="button"]:active, #bt_notice1_notice2_notice3_div input[type="reset"]:active { }
+
+#bt_notice1_notice2_notice3_div .moduletable h3 span.title_arrow { }
+#bt_notice1_notice2_notice3_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_banner_div ---------- */
+#bt_banner_div h1, #bt_banner_div h2, #bt_banner_div h3, #bt_banner_div h4, #bt_banner_div h5, #bt_banner_div h6 { }
+#bt_banner_div ul li { }
+#bt_banner_div a:link, #bt_banner_div a:active, #bt_banner_div a:visited { }
+#bt_banner_div a:hover, #bt_banner_div a:focus { }
+#bt_banner_div input[type="text"], #bt_banner_div input[type="password"], #bt_banner_div input[type="email"] { }
+#bt_banner_div input[type="text"]:hover, #bt_banner_div input[type="password"]:hover, #bt_banner_div input[type="email"]:hover { }
+#bt_banner_div textarea { }
+#bt_banner_div textarea:hover, #bt_banner_div textarea:focus { }
+#bt_banner_div button, #bt_banner_div input.button, #bt_banner_div .button, #bt_banner_div input[type="submit"], #bt_banner_div input[type="button"], #bt_banner_div input[type="reset"] { }
+
+#bt_banner_div button:hover, #bt_banner_div input.button:hover, #bt_banner_div .button:hover, #bt_banner_div input[type="submit"]:hover, #bt_banner_div input[type="button"]:hover, #bt_banner_div input[type="reset"]:hover { }
+
+#bt_banner_div button:active, #bt_banner_div input.button:active, #bt_banner_div .button:active, #bt_banner_div input[type="submit"]:active, #bt_banner_div input[type="button"]:active, #bt_banner_div input[type="reset"]:active { }
+
+#bt_banner_div .moduletable h3 span.title_arrow { }
+#bt_banner_div .moduletable h3 span.first-word { }
+
+/* ---------- #bt_copyright_message ---------- */
+#bt_copyright_message { }
+#bt_copyright_message a:link, #bt_copyright_message a:active, #bt_copyright_message a:visited { }
+#bt_copyright_message a:hover, #bt_copyright_message a:focus { }

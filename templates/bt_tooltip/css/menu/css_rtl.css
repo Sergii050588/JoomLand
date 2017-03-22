@@ -1,0 +1,187 @@
+/*---------------------------------------------------------
+# BT Tooltip - Joomla! Template
+# ---------------------------------------------------------
+# For Joomla! 3.0
+# Copyright (C) 2007-2013 BonusThemes.com. All rights reserved.
+# License: GNU/GPLv3, http://www.gnu.org/licenses/gpl-3.0.html
+# Demo: http://www.bonusthemes.com/demo/?template=tooltip
+# Website: http://www.bonusthemes.com
+# Support: support@bonusthemes.com
+----------------------------------------------------------- */
+
+/* ------- Son of Suckerfish Dropdowns, Originally developed by Patrick Griffiths and Dan Webb (http://www.htmldog.com/articles/suckerfish/dropdowns/) ------- */
+ul#bt_nav_menu, ul#bt_nav_menu ul { 
+     list-style-type: none;
+     width: 100%;
+     display: block;
+     z-index: 1000 !important;
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px 0px;
+}
+ul#bt_nav_menu a, ul#bt_nav_menu span.separator { 
+     border-top-width: 2px;
+     border-top-style: solid;
+     display: block;
+}
+ul#bt_nav_menu a li:hover, ul#bt_nav_menu span.separator li:hover { }
+ul#bt_nav_menu a:hover, ul#bt_nav_menu span.separator:hover { 
+     border-top-width: 2px;
+     border-top-style: solid;
+}
+ul#bt_nav_menu li li a, ul#bt_nav_menu li li span.separator { 
+     border-top-style: none !important;
+     display: block;
+}
+ul#bt_nav_menu li li a:hover, ul#bt_nav_menu li li span.separator:hover { 
+     border-top-style: none !important;
+}
+ul#bt_nav_menu li { 
+     list-style-type: none;
+     background-position: left center;
+     background-repeat: no-repeat;
+     display: table-cell;
+     float: right;
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px 0px !important;
+}
+ul#bt_nav_menu li ul { 
+     width: 220px;
+     z-index: 2;
+     position: absolute;
+     right: -999px;
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px 0px;
+}
+ul#bt_nav_menu li ul ul { 
+     margin: -33px 220px 0px 0px;
+     padding: 0px 0px 0px 0px !important;
+}
+ul#bt_nav_menu li:hover ul ul { 
+     right: -999px;
+}
+ul#bt_nav_menu li:hover ul, ul#bt_nav_menu li li:hover ul { 
+     right: auto;
+}
+div.bt_sub_menu { 
+     display: table;
+     margin: 0px 0px 0px 0px;
+}
+
+/* ------- 4 levels ------- */
+ul#bt_nav_menu li:hover ul ul, ul#bt_nav_menu li:hover ul ul ul, ul#bt_nav_menu li:hover ul ul ul ul { 
+     right: -999em;
+}
+ul#bt_nav_menu li:hover ul, ul#bt_nav_menu li li:hover ul, ul#bt_nav_menu li li li:hover ul, ul#bt_nav_menu li li li li:hover ul { 
+     right: auto;
+}
+
+/* ------- Defaults for ALL Levels ------- */
+ul#bt_nav_menu li img { 
+     margin: 6px 0px 0px 10px;
+}
+ul#bt_nav_menu li li img { 
+     margin-top: 5px;
+}
+ul#bt_nav_menu li a { 
+     text-decoration: none;
+}
+
+/* ------- TOP Level ------- */
+ul#bt_nav_menu li.yt_top_last { }
+
+/* -- no childs -- */
+ul#bt_nav_menu li a, ul#bt_nav_menu li span.separator { 
+     font-size: 15px;
+     font-weight: 700;
+     cursor: pointer;
+     padding: 9px 15px 9px 15px !important;
+}
+ul#bt_nav_menu li:hover a, ul#bt_nav_menu li:hover span.separator { }
+
+/* -- no childs & active -- */
+ul#bt_nav_menu li.active a, ul#bt_nav_menu li.active span.separator { 
+     border-top-width: 2px;
+     border-top-style: solid;
+}
+
+/* -- no childs & active & hover -- */
+ul#bt_nav_menu li.active a:hover, ul#bt_nav_menu li.active span.separator:hover { }
+
+/* -- has childs -- */
+ul#bt_nav_menu li.parent a, ul#bt_nav_menu li.parent span.separator { 
+     background-position: 5% center;
+     background-repeat: no-repeat;
+     padding: 9px 15px 9px 35px !important;
+}
+ul#bt_nav_menu li.parent:hover a, ul#bt_nav_menu li.parent:hover span.separator { 
+     background-position: 5% center;
+     background-repeat: no-repeat;
+}
+
+/* -- has childs & active -- */
+ul#bt_nav_menu li.parent.active a, ul#bt_nav_menu li.parent.active span.separator { 
+     background-position: 5% center;
+     background-repeat: no-repeat;
+}
+
+/* -- has childs & active & hover -- */
+ul#bt_nav_menu li.parent.active a:hover, ul#bt_nav_menu li.parent.active span.separator:hover { 
+     background-position: 5% center;
+     background-repeat: no-repeat;
+}
+
+/* -- active parent on sub levels hover -- */
+ul#bt_nav_menu .sfHover a, ul#bt_nav_menu .sfHover span.separator { }
+
+/* ------- SUB Levels ------- */
+ul#bt_nav_menu li ul li { 
+     width: 220px;
+     margin: 0px 0px 0px 0px !important;
+     padding: 0px 0px 0px 0px !important;
+}
+ul#bt_nav_menu li.parent ul { 
+     padding: 0px 0px 0px 0px;
+}
+
+/* -- the parent is active but not childs -- */
+ul#bt_nav_menu li.parent.active li a:hover, ul#bt_nav_menu li.parent.active li span.separator:hover { }
+
+/* -- no childs -- */
+ul#bt_nav_menu li.parent ul li a, ul#bt_nav_menu li.parent ul li span.separator, ul#bt_nav_menu li.parent ul li.parent ul li a, ul#bt_nav_menu li.parent ul li.parent ul li span.separator, ul#bt_nav_menu li.parent ul li.parent.active ul li a, ul#bt_nav_menu li.parent ul li.parent.active ul li span.separator { 
+     font-size: 13px !important;
+     font-weight: 700;
+     margin: 0px 0px 0px 0px !important;
+     padding: 6px 15px 6px 16px !important;
+}
+
+/* -- separator -- */
+ul#bt_nav_menu li.parent ul li.yt_sub_default_item a, ul#bt_nav_menu li.parent ul li.yt_sub_default_item span.separator { 
+     border-bottom-width: 1px;
+     border-bottom-style: solid;
+     border-right-width: 5px;
+     border-right-style: solid;
+}
+ul#bt_nav_menu li li.yt_sub_default_item a, ul#bt_nav_menu li li.yt_sub_default_item span.separator { }
+ul#bt_nav_menu li li.yt_sub_last_item a, ul#bt_nav_menu li li.yt_sub_last_item span.separator { }
+ul#bt_nav_menu li.parent ul li.yt_sub_last_item a, ul#bt_nav_menu li.parent ul li.yt_sub_last_item span.separator { 
+     border-right-width: 5px;
+     border-right-style: solid;
+}
+ul#bt_nav_menu li.parent ul li:hover a, ul#bt_nav_menu li.parent ul li:hover span.separator, ul#bt_nav_menu li.parent ul li.parent ul li:hover a, ul#bt_nav_menu li.parent ul li.parent ul li:hover span.separator, ul#bt_nav_menu li.parent ul li.parent.active ul li:hover a, ul#bt_nav_menu li.parent ul li.parent.active ul li:hover span.separator { }
+
+/* -- no childs & active -- */
+ul#bt_nav_menu li.parent ul li.active a, ul#bt_nav_menu li.parent ul li.active span.separator, ul#bt_nav_menu li.parent ul li.parent ul li.active a, ul#bt_nav_menu li.parent ul li.parent ul li.active span.separator { }
+ul#bt_nav_menu li.parent ul li.active a:hover, ul#bt_nav_menu li.parent ul li.active span.separator:hover, ul#bt_nav_menu li.parent ul li.parent ul li.active a:hover, ul#bt_nav_menu li.parent ul li.parent ul li.active span.separator:hover { }
+
+/* -- has childs -- */
+ul#bt_nav_menu li.parent ul li.parent a, ul#bt_nav_menu li.parent ul li.parent span.separator { 
+     background-position: 5% center                               !important;
+     background-repeat: no-repeat !important;
+     padding: 6px 15px 6px 38px !important;
+}
+ul#bt_nav_menu li.parent ul li.parent a:hover, ul#bt_nav_menu li.parent ul li.parent span.separator:hover { }
+
+/* -- has childs & active -- */
+ul#bt_nav_menu li.parent ul li.parent.active a, ul#bt_nav_menu li.parent ul li.parent.active span.separator { }
+ul#bt_nav_menu li.parent ul li.parent.active a:hover, ul#bt_nav_menu li.parent ul li.parent.active span.separator:hover { }
+ul#bt_nav_menu li.parent ul li.parent.active li a, ul#bt_nav_menu li.parent ul li.parent.active li span.separator { }

@@ -1,0 +1,77 @@
+/*---------------------------------------------------------
+# BT Tooltip - Joomla! Template
+# ---------------------------------------------------------
+# For Joomla! 3.0
+# Copyright (C) 2007-2013 BonusThemes.com. All rights reserved.
+# License: GNU/GPLv3, http://www.gnu.org/licenses/gpl-3.0.html
+# Demo: http://www.bonusthemes.com/demo/?template=tooltip
+# Website: http://www.bonusthemes.com
+# Support: support@bonusthemes.com
+----------------------------------------------------------- */
+
+/* --- OpenID icon style --- */
+input.system-openid, input.com-system-openid { 
+     padding-left: 18px;
+}
+
+/* --- Unpublished --- */
+.system-unpublished { 
+     border-top-width: 4px;
+     border-top-style: solid;
+     border-bottom-width: 4px;
+     border-bottom-style: solid;
+}
+
+/* --- System Messages --- */
+#system-message { 
+     margin: 0px 0px 10px 0px;
+     padding: 0px 0px 0px 0px;
+}
+#system-message dt { 
+     display: none;
+}
+#system-message dd { 
+     font-size: 13px;
+     font-weight: bold;
+     text-align: center;
+     margin: 0px 0px 0px 0px;
+}
+#system-message dd ul { 
+     list-style-type: none;
+     margin: 0px 0px 10px 0px;
+}
+#system-message ul li { }
+
+/* --- Default --- */
+#system-message dt.message { }
+#system-message dd.message { }
+#system-message dd.message ul { }
+#system-message dd.message ul li { 
+     background-position: left center;
+     background-repeat: no-repeat;
+     display: inline-block;
+     margin: 0px 0px 0px 0px;
+     padding: 15px 10px 15px 45px;
+}
+
+/* --- Notice --- */
+#system-message dt.notice { }
+#system-message dd.notice ul { }
+#system-message dd.notice ul li { 
+     background-position: left center;
+     background-repeat: no-repeat;
+     display: inline-block;
+     margin: 0px 0px 0px 0px;
+     padding: 15px 10px 15px 45px;
+}
+
+/* --- Error --- */
+#system-message dt.error { }
+#system-message dd.error ul { }
+#system-message dd.error ul li { 
+     background-position: left center;
+     background-repeat: no-repeat;
+     display: inline-block;
+     margin: 0px 0px 0px 0px;
+     padding: 15px 10px 15px 40px;
+}

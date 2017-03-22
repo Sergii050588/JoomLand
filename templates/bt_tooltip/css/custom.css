@@ -1,0 +1,17 @@
+/*---------------------------------------------------------
+# BT Tooltip - Joomla! Template
+# ---------------------------------------------------------
+# For Joomla! 3.0
+# Copyright (C) 2007-2013 BonusThemes.com. All rights reserved.
+# License: GNU/GPLv3, http://www.gnu.org/licenses/gpl-3.0.html
+# Demo: http://www.bonusthemes.com/demo/?template=tooltip
+# Website: http://www.bonusthemes.com
+# Support: support@bonusthemes.com
+----------------------------------------------------------- */
+body { background-attachment: fixed; 
+background-image: url("../images/cerise/template/bg-top.png"), url("../images/cerise/template/bg-bottom.png");
+background-position: left top, right bottom;
+}
+input.bt_currency_button { color: #FFF !important; background-color: #c0c0c0 !important; border: 1px solid #c0c0c0 !important; margin: 0 0 10px 0; padding: 5px 10px 5px 10px; float: right; } 
+input.bt_currency_button:hover { color: #FFF !important; background-color: #9b9b9b !important; border: 1px solid #9b9b9b !important; }
+select#virtuemart_currency_id { border: 1px solid #e0e0e0; margin-top: 0px 0px 10px 0px; padding: 4px; width: 100px; height: 30px; float: left; } 

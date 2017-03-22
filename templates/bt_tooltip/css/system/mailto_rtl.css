@@ -1,0 +1,53 @@
+/*---------------------------------------------------------
+# BT Tooltip - Joomla! Template
+# ---------------------------------------------------------
+# For Joomla! 3.0
+# Copyright (C) 2007-2013 BonusThemes.com. All rights reserved.
+# License: GNU/GPLv3, http://www.gnu.org/licenses/gpl-3.0.html
+# Demo: http://www.bonusthemes.com/demo/?template=tooltip
+# Website: http://www.bonusthemes.com
+# Support: support@bonusthemes.com
+----------------------------------------------------------- */
+body.bt_mailto_body { 
+     font-family: Maven Pro, sans-serif;
+     overflow: visible;
+}
+.bt_mailto { 
+     padding: 10px 10px 10px 10px;
+}
+.bt_mailto #mailto-window form { 
+     position: relative;
+     top: -20px;
+     padding: 12px 2px 12px 2px;
+}
+.bt_mailto #mailto-window h2 { 
+     font-size: 20px !important;
+     padding: 0px 0px 12px 0px !important;
+}
+.bt_mailto #mailto-window .mailto-close { 
+     display: block;
+     float: left;
+     position: relative;
+     top: -30px;
+     left: 12px;
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px 0px;
+}
+.bt_mailto a { 
+     font-size: 10px;
+     text-decoration: none;
+     text-transform: uppercase;
+}
+.bt_mailto a:hover, .bt_mailto a:active, .bt_mailto a:focus { 
+     text-decoration: underline;
+}
+.bt_mailto form div label { 
+     width: 100px;
+     display: block;
+     margin: 10px 0px 2px 0px;
+}
+.bt_mailto form div input { }
+.bt_mailto #mailtoForm p button { 
+     float: right;
+     margin: 10px 0px 0px 5px;
+}
